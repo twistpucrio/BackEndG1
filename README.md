@@ -1,6 +1,6 @@
 # BackEndG1
 
-# 🛋️ Store Backend API
+# 📦 Store Backend API
 
 Uma API REST completa para uma loja virtual, construída com Node.js, Express e JSON DB.
 
@@ -8,7 +8,7 @@ Uma API REST completa para uma loja virtual, construída com Node.js, Express e 
 
 Este projeto fornece uma API backend para gerenciar produtos de uma loja virtual, incluindo operações CRUD. Os dados são persistidos em um arquivo JSON usando JSON DB.
 
-## 📦 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 ```
 ecommerce-backend/
