@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Backend para loja virtual",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "lowdb": "2.1.0",
+    "cors": "2.8.5"
+  }
+}

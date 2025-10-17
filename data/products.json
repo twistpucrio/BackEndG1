@@ -1,0 +1,514 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "categoria": "Sala",
+      "nome": "cadeira sala",
+      "preco": 295.00,
+      "qtd": 10,
+      "descricao": "ótima cadeira para sala",
+      "imagem": "IMG/cadeira.png"
+    },
+    {
+      "id": 2,
+      "categoria": "Sala",
+      "nome": "sofa sala",
+      "preco": 599.00,
+      "qtd": 10,
+      "descricao": "sofá confortável de 3 lugares",
+      "imagem": "IMG/sofa.png"
+    },
+    {
+      "id": 3,
+      "categoria": "Sala",
+      "nome": "mesa sala",
+      "preco": 700.00,
+      "qtd": 10,
+      "descricao": "mesa de madeira para sala",
+      "imagem": "IMG/mesa.png"
+    },
+    {
+      "id": 4,
+      "categoria": "Sala",
+      "nome": "poltrona sala",
+      "preco": 450.00,
+      "qtd": 10,
+      "descricao": "poltrona confortável para sala",
+      "imagem": "IMG/poltrona.png"
+    },
+    {
+      "id": 5,
+      "categoria": "Sala",
+      "nome": "mesa centro sala",
+      "preco": 380.00,
+      "qtd": 10,
+      "descricao": "mesa de centro moderna",
+      "imagem": "IMG/mesaCentro.png"
+    },
+    {
+      "id": 6,
+      "categoria": "Sala",
+      "nome": "tapete sala",
+      "preco": 250.00,
+      "qtd": 10,
+      "descricao": "tapete macio e estiloso",
+      "imagem": "IMG/tapeteSala.png"
+    },
+    {
+      "id": 7,
+      "categoria": "Sala",
+      "nome": "mesa vidro",
+      "preco": 950.00,
+      "qtd": 10,
+      "descricao": "mesa de vidro elegante",
+      "imagem": "IMG/mesaVidro.png"
+    },
+    {
+      "id": 8,
+      "categoria": "Sala",
+      "nome": "sofa verde",
+      "preco": 750.00,
+      "qtd": 10,
+      "descricao": "sofá verde moderno",
+      "imagem": "IMG/sofaVerde.png"
+    },
+    {
+      "id": 9,
+      "categoria": "Sala",
+      "nome": "estante sala",
+      "preco": 600.00,
+      "qtd": 10,
+      "descricao": "estante espaçosa para sala",
+      "imagem": "IMG/estanteSala.png"
+    },
+    {
+      "id": 10,
+      "categoria": "Sala",
+      "nome": "cômoda",
+      "preco": 850.00,
+      "qtd": 10,
+      "descricao": "cômoda de madeira com gavetas",
+      "imagem": "IMG/comoda.png"
+    },
+    {
+      "id": 11,
+      "categoria": "Jardim",
+      "nome": "Espreguiçadeira de pano",
+      "preco": 399.99,
+      "qtd": 35,
+      "descricao": "Espreguiçadeira confortável de pano na cor amarela",
+      "imagem": "IMG/jardim/espreguicadeira-amarela.png"
+    },
+        {
+      "id": 12,
+      "categoria": "Jardim",
+      "nome": "Sofá outdoor de pano",
+      "preco": 599.99,
+      "qtd": 15,
+      "descricao": "Sofá cômodo e espaçoso de pano na cor azul marinho",
+      "imagem": "IMG/jardim/sofa-azul-marinho.png"
+    },
+    {
+  "id": 13,
+  "categoria": "Jardim",
+  "nome": "Churrasqueira moderna metálica",
+  "preco": 299.99,
+  "qtd": 25,
+  "descricao": "Churrasqueira moderna e de vida útil longa",
+  "variacoes": [
+    {
+      "cor": "laranja",
+      "imagem": "IMG/jardim/churrasqueira-laranja.png"
+    },
+    {
+      "cor": "vermelha",
+      "imagem": "IMG/jardim/churrasqueira-vermelha.png"
+    }
+  ],
+  "imagem": "IMG/jardim/churrasqueira-laranja.png"
+},
+
+        {
+      "id": 14,
+      "categoria": "Jardim",
+      "nome": "Conjunto: mesa de vidro e cadeiras",
+      "preco": 629.99,
+      "qtd": 15,
+      "descricao": "Mesa de vidro espaçosa acompanha de cadeiras",
+      "imagem": "IMG/jardim/mesa-vidro-preta.png"
+    },
+    {
+      "id": 15,
+      "categoria": "Jardim",
+      "nome": "Rede de pano para descanso",
+      "preco": 129.99,
+      "qtd": 40,
+      "descricao": "Rede de pano firme e confortável para descansar na cor branca",
+      "imagem": "IMG/jardim/rede-branca.png"
+    },
+    {
+      "id": 16,
+      "categoria": "Jardim",
+      "nome": "Mesa de centro de madeira",
+      "preco": 129.99,
+      "qtd": 40,
+      "descricao": "Mesa de centro de madeira escura",
+      "imagem": "IMG/jardim/mesa-vidro-preta.png"
+    },
+    {
+      "id": 17,
+      "categoria": "Jardim",
+      "nome": "Puff redondo em tricô grosso",
+      "preco": 129.99,
+      "qtd": 40,
+      "descricao": "Puff redondo e confortável, estilo artesanal, na cor vermelha",
+      "imagem": "IMG/jardim/puff-vermelho.png"
+    },
+        {
+      "id": 30,
+      "categoria": "Quarto",
+      "nome": "Armario Moderno",
+      "preco": 1999.99,
+      "qtd": 15,
+      "descricao": "Armário moderno e espaçoso para quarto",
+      "imagem": "IMG/quarto adulto/armario moderno.png"
+    },
+      {
+      "id": 31,
+      "categoria": "Quarto",
+      "nome": "Armario Vitoriano",
+      "preco": 2999.99,
+      "qtd": 15,
+      "descricao": "Armário vitoriano e espaçoso para quarto",
+      "imagem": "IMG/quarto adulto/armário vitoriano.png"
+    },
+      {
+      "id": 32,
+      "categoria": "Quarto",
+      "nome": "Cama Moderna",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Cama moderna e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/cama moderno.png"
+    },
+      {
+      "id": 33,
+      "categoria": "Quarto",
+      "nome": "Cama Praiana",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Cama praiana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/cama praian.png"
+    },
+         {
+      "id": 34,
+      "categoria": "Quarto",
+      "nome": "Cama Vitoriana",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Cama vitoriana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/cama vitoriana.png"
+    },
+         {
+      "id": 35,
+      "categoria": "Quarto",
+      "nome": "Cortina Moderna",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Cortina moderna e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/cortinas moderno.png"
+    }  ,
+      {
+      "id": 36,
+      "categoria": "Quarto",
+      "nome": "Cortina Praiana",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Cortina praiana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/cortinas praiano.png"
+    },
+      {
+      "id": 37,
+      "categoria": "Quarto",
+      "nome": "Cortina Vitoriana",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Cortina vitoriana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/cortinas vitoriana.png"
+    },
+       {
+      "id": 38,
+      "categoria": "Quarto",
+      "nome": "Estante Moderna",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Estante moderna e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/estante moderna.png"
+    } ,
+
+{
+      "id": 39,
+      "categoria": "Quarto",
+      "nome": "Estante Praiana",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Estante praiana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/estante praiano.png"
+    },        
+      
+{
+      "id": 40,
+      "categoria": "Quarto",
+      "nome": "Estante Vitoriana",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Estante vitoriana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/estante vitoriana.png"
+    },
+{
+      "id": 42,
+      "categoria": "Quarto",
+      "nome": "Mesa de Cabeceira Moderna",
+      "preco": 1000.99,
+      "qtd": 15,
+      "descricao": "Mesa de cabeceira moderna e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/mesa de cabeceira moderna.png"
+    } ,{
+      "id": 43,
+      "categoria": "Quarto",
+      "nome": "Mesa de Cabeceira praiana",
+      "preco": 1000.99,
+      "qtd": 20,
+      "descricao": "Mesa de cabeceira praiana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/mesa de cabeceira praiana.png"
+    }, 
+    {
+      "id": 44,
+      "categoria": "Quarto",
+      "nome": "Mesa de Cabeceira vitoriana",
+      "preco": 1000.99,
+      "qtd": 20,
+      "descricao": "Mesa de cabeceira vitoriana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/mesa de cabeceira vitoriana.png"
+    }
+      ,{
+      "id": 45,
+      "categoria": "Quarto",
+      "nome": "Mesa de Escritorio Moderna",
+      "preco": 1000.99,
+      "qtd": 20,
+      "descricao": "Mesa de escritorio moderna e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/mesa escritório moderno.png"
+    }
+    ,{
+      "id": 46,
+      "categoria": "Quarto",
+      "nome": "Mesa de Escritorio Vitoriana",
+      "preco": 1000.99,
+      "qtd": 20,
+      "descricao": "Mesa de escritorio vitoriana e espaçosa para quarto",
+      "imagem": "IMG/quarto adulto/mesa escritório vitoriano.png"
+    },
+    {
+      "id": 47,
+      "categoria": "Quarto",
+      "nome": "Tapete Moderno",
+      "preco": 799.99,
+      "qtd": 20,
+      "descricao": "Tapete moderno e espaçoso para quarto",
+      "imagem": "IMG/quarto adulto/tapete moderno.png"
+    },
+      {
+      "id": 48,
+      "categoria": "Quarto",
+      "nome": "Tapete praiano",
+      "preco": 699.99,
+      "qtd": 20,
+      "descricao": "Tapete praiano e espaçoso para quarto",
+      "imagem": "IMG/quarto adulto/tapete praiano.png"
+    },
+    {
+      "id": 49,
+      "categoria": "Quarto",
+      "nome": "Tapete vitoriano",
+      "preco": 500.99,
+      "qtd": 20,
+      "descricao": "Tapete vitoriano e espaçoso para quarto",
+      "imagem": "IMG/quarto adulto/tapete vitoriano.png"
+    },
+     {
+      "id": 50,
+      "categoria": "Quarto",
+      "nome": "Cama kawaii",
+      "preco": 1500.99,
+      "qtd": 20,
+      "descricao": "Cama kawaii e espaçosa para quarto",
+      "imagem": "IMG/quarto criança/cama kawaii.png"
+    },
+      {
+      "id": 51,
+      "categoria": "Quarto",
+      "nome": "Comoda kawaii",
+      "preco": 700.99,
+      "qtd": 20,
+      "descricao": "Cômoda kawaii para quarto",
+      "imagem": "IMG/quarto criança/cômoda kawaii.png"
+    },
+      {
+      "id": 52,
+      "categoria": "Quarto",
+      "nome": "Comoda zoo",
+      "preco": 700.99,
+      "qtd": 20,
+      "descricao": "Cômoda estilo zoo para quarto",
+      "imagem": "IMG/quarto criança/cômoda zoo.png"
+    },
+            {
+      "id": 53,
+      "categoria": "Quarto",
+      "nome": "Estante kawaii",
+      "preco": 900.99,
+      "qtd": 20,
+      "descricao": "Estante estilo kawaii para quarto",
+      "imagem": "IMG/quarto criança/estante kawaii.png"
+    },
+        {
+      "id": 54,
+      "categoria": "Quarto",
+      "nome": "Luminaria kawaii",
+      "preco": 500.99,
+      "qtd": 20,
+      "descricao": "Luminária estilo kawaii para quarto",
+      "imagem": "IMG/quarto criança/luminária kawaii.png"
+    },
+        {
+      "id": 55,
+      "categoria": "Quarto",
+      "nome": "Luminaria zoo",
+      "preco": 500.99,
+      "qtd": 20,
+      "descricao": "Luminária estilo zoo para quarto",
+      "imagem": "IMG/quarto criança/luminária zoo.png"
+    },
+        {
+      "id": 56,
+      "categoria": "Quarto",
+      "nome": "Mesa recreativa kawaii",
+      "preco": 800.99,
+      "qtd": 20,
+      "descricao": "Mesa recreativa estilo kawaii para quarto",
+      "imagem": "IMG/quarto criança/mesa recreativa kawaii.png"
+    },
+    {
+      "id": 57,
+      "categoria": "Quarto",
+      "nome": "Mesa recreativa zoo",
+      "preco": 800.99,
+      "qtd": 20,
+      "descricao": "Mesa recreativa estilo zoo para quarto",
+      "imagem": "IMG/quarto criança/mesa recreativa zoo.png"
+    },
+    {
+      "id": 58,
+      "categoria": "Quarto",
+      "nome": "Tapete kawaii",
+      "preco": 500.99,
+      "qtd": 20,
+      "descricao": "Tapete estilo kawaii para quarto",
+      "imagem": "IMG/quarto criança/tapete kawaii.png"
+    },
+    {
+      "id": 59,
+      "categoria": "Quarto",
+      "nome": "Tapete zoo",
+      "preco": 500.99,
+      "qtd": 20,
+      "descricao": "Tapete estilo zoo para quarto",
+      "imagem": "IMG/quarto criança/tapete zoo.png"
+
+    },
+    
+        {
+      "id":60 ,
+      "categoria": "Escritorio",
+      "nome": "Armário de escritório",
+      "preco": 1500.00,
+      "qtd": 5,
+      "descricao": "armário ",
+      "imagem": "IMG/ArmariodeEscritorio.png"
+    },
+    {
+      "id":61,
+      "categoria": "Escritorio",
+      "nome": "Cadeira confortável",
+      "preco": 550.00,
+      "qtd": 15,
+      "descricao": "cadeira confortável para trabalho e reuniões",
+      "imagem": "IMG/CadeiraConfortaveldeEscritorio.png"
+    },
+    {
+      "id": 62,
+      "categoria": "Escritorio",
+      "nome": "Cadeira básica",
+      "preco": 350.00,
+      "qtd": 10,
+      "descricao": "cadeira básica de escritório. Simples e confortável",
+      "imagem": "IMG/CadeiradeEscritorioBasica.png"
+    },
+    {
+      "id": 63,
+      "categoria": "Escritorio",
+      "nome": " Conjunto de cadeiras",
+      "preco": 700.00,
+      "qtd": 10,
+      "descricao": "conjunto de cadeiras básicas para empresa",
+      "imagem": "IMG/ConjuntodeCadeirasparaFuncionarios.png"
+    },
+    {
+      "id": 64,
+      "categoria": "Escritorio",
+      "nome": "Luminária",
+      "preco": 200.00,
+      "qtd": 20,
+      "descricao": "luminária para escritório",
+      "imagem": "IMG/LuminariaparaEscritorio.png"
+    },
+    {
+      "id": 65,
+      "categoria": "Escritorio",
+      "nome": "Mesa simples",
+      "preco": 250.00,
+      "qtd": 10,
+      "descricao": "Mesa simples para ambiente de trabalho",
+      "imagem": "IMG/MesaSimplesdeEscritorio.png"
+    },
+    {
+      "id": 66,
+      "categoria": "Escritorio",
+      "nome": "Mesa para funcionários",
+      "preco": 950.00,
+      "qtd": 10,
+      "descricao": "Mesa para sala de funcionários",
+      "imagem": "IMG/MesaFuncionarios.png"
+    },
+    {
+      "id": 67,
+      "categoria": "Escritorio",
+      "nome": "Cadeira plus",
+      "preco": 2050.00,
+      "qtd": 5,
+      "descricao": "Cadeira super confortável e elegante para um escritório chique e relaxante.",
+      "imagem": "IMG/CadeiraChique.png"
+    },
+    {
+      "id": 68,
+      "categoria": "Escritorio",
+      "nome": "Móvel com gavetas",
+      "preco": 1200.00,
+      "qtd": 10,
+      "descricao": "Móvel com gavetas para escritório",
+      "imagem": "IMG/MovelChique.png"
+    }
+    
+  ]
+}
