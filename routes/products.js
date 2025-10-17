@@ -1,49 +1,40 @@
-import express from 'express';
-import { JSONFileSync } from 'lowdb'
+const express = require('express');
+const { JsonDB } = require('node-json-db');
+const { Config } = require('node-json-db/dist/lib/JsonDBConfig');
 
 const router = express.Router();
 
-// Configurar o adaptador do banco de dados
-const db = new JSONFileSync('../data/products.json');
+// Inicializar o banco de dados
+const db = new JsonDB(new Config('data/products', true, false, '/'));
 
 // GET /api/products - Listar todos os produtos
-router.get('/', (req, res) => {
+router.get('/', async (_, res) => {
   try {
-    const products = db.get('products').value();
-    res.json({
-      products
-    });
+    const products = await db.getData('/produtos');
+    res.json(products);
+
   } catch (error) {
-    console.error('Erro ao buscar produtos:', error);
-    res.status(500).json({ 
-      error: 'Erro ao buscar produtos' 
-    });
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao buscar produtos' });
   }
 });
 
 // GET /api/products/:id - Buscar produto por ID
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
-    const product = db.get('products')
-      .find({ id: req.params.id })
-      .value();
+    const products = await db.getData('/produtos');
+    const product = products.find(p => p.id == req.params.id);
 
     if (!product) {
-      return res.status(404).json({ 
-        error: 'Produto não encontrado' 
-      });
+      return res.status(404).json({ error: `Produto ${req.params.id} não encontrado` });
     }
 
-    res.json({
-      product
-    });
+    res.json(product);
+
   } catch (error) {
-    console.error('Erro ao buscar produto:', error);
-    res.status(500).json({ 
-      success: false,
-      error: 'Erro ao buscar produto' 
-    });
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao buscar produto' });
   }
 });
 
-export default router;
+module.exports = router;

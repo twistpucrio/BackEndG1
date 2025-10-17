@@ -1,6 +1,6 @@
-import express from 'express';
-import cors from 'cors';
-import productRoutes from './routes/products.js';
+const express = require('express');
+const cors = require('cors');
+const productRoutes = require('./routes/products.js');
 
 const app = express();
 const PORT = process.env.PORT || 8000;
