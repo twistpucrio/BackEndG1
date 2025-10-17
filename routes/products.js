@@ -8,10 +8,10 @@ const router = express.Router();
 const db = new JsonDB(new Config('data/products', true, false, '/'));
 
 // GET /api/products - Listar todos os produtos
-router.get('/', async (_, res) => {
+router.get('/', async (req, res) => {
   try {
     const products = await db.getData('/produtos');
-    res.json(products);
+    res.json({produtos: products});
 
   } catch (error) {
     console.error(error);
