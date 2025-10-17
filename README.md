@@ -43,7 +43,7 @@ npm start
 
 #### Listar todos os produtos
 
-```http
+```
 GET /api/products
 ```
 
@@ -68,11 +68,11 @@ Resposta:
 
 #### Buscar produto por id
 
-```http
+```
 GET /api/products/:id
 ```
 
-```javascript
+```
 // Exemplo para busca com identificador 10
 GET /api/products/10
 ```
